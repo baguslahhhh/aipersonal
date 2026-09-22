@@ -19,6 +19,8 @@ migrations_dir = "migrations"
 # Shown on the Dashboard / Settings page. Replace with your real gateway domain.
 GATEWAY_BASE_URL = "https://ai.example.com"
 APP_NAME = "Personal AI Gateway"
+ADMIN_SECRET = "RahasiaPanca1234"
+SESSION_SECRET = "34987ae762b2ee3365afd00f7599f54a167e8270726a4bea6b"
 
 [triggers]
 crons = ["0 1 * * *"]
